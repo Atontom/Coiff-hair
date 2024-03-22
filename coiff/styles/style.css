@@ -1,0 +1,274 @@
+@media screen and (max-width:320px){
+    .moto p {
+        font-size: 16px;
+    }
+    .about, .presta {
+    display: flex;
+    flex-direction: column;
+    }
+    iframe {
+        display: none;
+        width: 0%;
+    }
+    .contact {
+        display: flex;
+        margin: auto;
+    }
+    .contact div {
+        width: 100%;
+    }
+    .presta img {
+        display: none;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:768px){
+    .moto p {
+        font-size: 16px;
+    }
+    .about, .presta {
+    display: flex;
+    flex-direction: column;
+    }
+    .contact {
+        display: flex;
+        margin: auto;
+    }
+    .contact div {
+        width: 100%;
+    }
+    .presta img {
+        display: none;
+    }
+}
+
+* {
+    font-family: Montserrat;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    padding: 30px 50px 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: #fdfdfd;
+}
+
+nav img {
+    width: 108px;
+    height: auto;
+    opacity: 0.6;
+}
+
+.navitem {
+    display: inline-block;
+    padding: 9px 20px 9px 20px;
+    color: #1a1b1f;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.cta {
+    display:inline-block;
+    text-decoration: none;
+    background-color: #1a1b1f;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 12px 25px;
+}
+
+.intro a {
+    display: inline-block;
+    border-radius: 13px;
+    color: #1a1b1f;
+    padding: 16px 35px 16px 35px;
+    background-color: #f0ecd8;
+    font-size: 14px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    height: 620px;
+    background-image: url("../assets/intro.jpg") ;
+}
+
+.intro h1 {
+    color: white;
+    margin: 10px 0 10px 0;
+    font-size: 64px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.intro p {
+    color:white ;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.moto {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.moto p {
+    color: #1a1b1f;
+    display: inline-block;
+    font-size: 30PX;
+    font-weight: 400;
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.about , .presta {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 20px ;
+    gap: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+
+.illustration {
+    display: flex;
+    margin: auto;
+}
+
+h2 {
+    color: #1a1b1f;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about p, .presta p {
+    color: #1a1b1f;
+    opacity: 0.6;
+    line-height: 2;
+    text-align: justify;
+
+}
+
+.about img, .presta img{
+    width: 100%;
+    height: auto;
+}
+
+.presta .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presta {
+    padding-top: 40px 0;
+}
+
+em {
+    font-weight: 700;
+}
+
+.avis {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.avis p {
+    margin: 25px 0;
+    padding: 15px 30px;
+    width: 80%;
+    border-left: 5px solid #e2e2e2 ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    margin: 0 20px;
+    padding: 100px 0;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.contact h2 {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.contact p, .contact a {
+    padding: 0 0 10px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.contact a, footer a {
+    text-decoration: none;
+    color: #1a1b1f;
+}
+
+.contact span {
+    font-weight: 700;
+}
+
+.contacts {
+    padding-bottom: 20px;
+}
+
+iframe {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 15px 0;
+    margin: 0 20px;
+    font-size: 12px ;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(213, 213, 213);
+}
+
+footer a {
+    margin: 12px 0;
+}
